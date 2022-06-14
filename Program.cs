@@ -11,7 +11,11 @@ namespace tasks
     {
         static void Main(string[] args)
         {
+
+
             
+
+
 
 
 
@@ -130,6 +134,54 @@ namespace tasks
 
             }
         }
+
+
+
+        /// <summary>
+        /// Напечатать числа в виде следующей таблицы:
+        /// а) 5 5 5 5 5 5
+        ///    5 5 5 5 5 5
+        ///    5 5 5 5 5 5
+        ///    5 5 5 5 5 5
+        /// </summary>
+        static void Task6()
+        {
+            for (int a = 0; a < 1; a++)
+            {
+                Console.WriteLine("5 5 5 5 5 ");
+                for (int j = 0; j < 1; j++)
+                {
+                    Console.WriteLine("5 5 5 5 5");
+                    for (int d = 0; d < 1; d++)
+                    {
+                        Console.WriteLine("5 5 5 5 5");
+                        for (int s = 0; s < 1; s++)
+                        {
+                            Console.WriteLine("5 5 5 5 5");
+                        }
+                    }
+                }
+            }
+        }
+        /// <summary>
+        /// б) 1 2 ... 10
+        ///    1 2 ... 10
+        ///    1 2 ... 10
+        ///    1 2 ... 10
+        /// </summary>
+        static void Task7()
+        {
+            for (int row = 1; row <= 4; row++)
+            {
+                Console.WriteLine();
+                for (int a = 1; a <= 10; a++)
+                {
+                    Console.Write($" {a}");
+                }
+            }
+        }
+
+
         
     }
 
