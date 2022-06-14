@@ -12,7 +12,7 @@ namespace tasks
         static void Main(string[] args)
         {
 
-
+            
             
 
 
@@ -179,6 +179,50 @@ namespace tasks
                     Console.Write($" {a}");
                 }
             }
+        }
+        /// <summary>
+        /// 5
+        /// 5 5
+        /// 5 5 5
+        /// 5 5 5 5
+        /// 5 5 5 5 5
+        /// </summary>
+        static void Task8()
+        {
+            for (int i = 1; i <= 5; i++)
+            {
+
+                for (int d = 1; d <= i; d++)
+                {
+                    Console.Write("5");
+                }
+                Console.WriteLine();
+            }
+
+        }
+        /// <summary>
+        /// 1 1 1 1 1
+        /// 1 1 1 1
+        /// 1 1 1
+        /// 1 1
+        /// 1
+        /// </summary>
+        static void Task9()
+        {
+            for (int i = 1; i <= 5; i++)
+            {
+
+                for (int d = i; d <= 5; d++)
+                {
+                    Console.Write(" 1");
+                }
+                Console.WriteLine();
+            }
+        }
+
+        static void Task10()
+        {
+
         }
 
 
